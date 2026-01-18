@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>كشاف – تسجيل الحضور</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f7;
+      text-align: center;
+      padding-top: 60px;
+      direction: rtl;
+    }
+
+    .box {
+      background: white;
+      width: 90%;
+      max-width: 400px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      color: #2c3e50;
+    }
+
+    button {
+      background-color: #27ae60;
+      color: white;
+      font-size: 20px;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background-color: #219150;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <h1>⚜️ تسجيل حضور الكشاف ⚜️</h1>
+    <p>اجتماع يوم الأحد</p>
+
+    <button onclick="goToForm()">
+      📝 سجّل حضورك
+    </button>
+
+    <footer>
+      كن مستعداً – كن نافعاً
+    </footer>
+  </div>
+
+  <script>
+    function goToForm() {
+      window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeAnAcsmp4Akx-EnhL93n-1ZAqnzYo_g4-6vZQcLZiPmgC4oQ/viewform?usp=header";
+    }
+  </script>
+
+</body>
+</html>
